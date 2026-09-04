@@ -16,3 +16,9 @@ Get Error help link for OneDrive access restriction
 `Set-SPOTenant -RestrictedAccessControlForOneDriveErrorHelpLink "https://girishuppal.com"`
 
  Set Error help link for OneDrive access restriction
+
+
+
+ `Set-SPOSite -Identity <site-url> -RestrictContentOrgWideSearch $true`
+ 
+ Restrict Content Discovery for SharePoint site
